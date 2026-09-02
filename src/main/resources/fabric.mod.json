@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "simpleradio_aviation",
+	"version": "${version}",
+	"name": "SimpleRadio Aviation Addon",
+	"description": "Adds aviation and military headsets, as well as player radars for SimpleRadio.",
+	"authors": [
+		"Leitzke"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/simpleradio_aviation/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.leitzke.simpleradioaviation.SimpleRadioAviationAddon"
+		],
+		"client": [
+			"com.leitzke.simpleradioaviation.client.SimpleRadioAviationAddonClient"
+		]
+	},
+	"mixins": [
+		"simpleradio_aviation.mixins.json",
+		{
+			"config": "simpleradio_aviation.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*",
+		"simpleradio": ">=1.21.1-4.5.7.9",
+		"voicechat": ">=1.21.1-2.6.18",
+		"lexiconfig": ">=1.4 <1.5"
+	}
+}

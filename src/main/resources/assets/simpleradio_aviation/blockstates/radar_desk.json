@@ -1,0 +1,9 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "simpleradio_aviation:block/radar_desk"
+      }
+    }
+  ]
+}
