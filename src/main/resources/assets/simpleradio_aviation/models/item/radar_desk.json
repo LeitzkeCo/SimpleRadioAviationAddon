@@ -1,3 +1,6 @@
 {
-  "parent": "simpleradio_aviation:block/radar_desk"
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "simpleradio_aviation:item/radar_desk"
+  }
 }

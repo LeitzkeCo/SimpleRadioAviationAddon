@@ -1,0 +1,51 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "facing": "north",
+        "offset_x": "1",
+        "offset_y": "0",
+        "offset_z": "1"
+      },
+      "apply": {
+        "model": "simpleradio_aviation:block/aviation_radar"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "offset_x": "1",
+        "offset_y": "0",
+        "offset_z": "1"
+      },
+      "apply": {
+        "model": "simpleradio_aviation:block/aviation_radar",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "offset_x": "1",
+        "offset_y": "0",
+        "offset_z": "1"
+      },
+      "apply": {
+        "model": "simpleradio_aviation:block/aviation_radar",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "offset_x": "1",
+        "offset_y": "0",
+        "offset_z": "1"
+      },
+      "apply": {
+        "model": "simpleradio_aviation:block/aviation_radar",
+        "y": 270
+      }
+    }
+  ]
+}

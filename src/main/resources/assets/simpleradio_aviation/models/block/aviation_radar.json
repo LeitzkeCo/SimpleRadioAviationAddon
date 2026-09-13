@@ -1,0 +1,60 @@
+{
+  "ambientocclusion": false,
+  "textures": {
+    "base": "minecraft:block/iron_block",
+    "pedestal": "minecraft:block/smooth_stone",
+    "input": "minecraft:block/redstone_block",
+    "output": "minecraft:block/copper_block",
+    "particle": "minecraft:block/iron_block"
+  },
+  "elements": [
+    {
+      "from": [-16, 0, -16],
+      "to": [32, 8, 32],
+      "faces": {
+        "north": {"uv": [0, 0, 16, 4], "texture": "#base"},
+        "east": {"uv": [0, 0, 16, 4], "texture": "#base"},
+        "south": {"uv": [0, 0, 16, 4], "texture": "#base"},
+        "west": {"uv": [0, 0, 16, 4], "texture": "#base"},
+        "up": {"uv": [0, 0, 16, 16], "texture": "#base"},
+        "down": {"uv": [0, 0, 16, 16], "texture": "#base"}
+      }
+    },
+    {
+      "from": [-8, 8, -8],
+      "to": [24, 20, 24],
+      "faces": {
+        "north": {"uv": [0, 0, 16, 6], "texture": "#pedestal"},
+        "east": {"uv": [0, 0, 16, 6], "texture": "#pedestal"},
+        "south": {"uv": [0, 0, 16, 6], "texture": "#pedestal"},
+        "west": {"uv": [0, 0, 16, 6], "texture": "#pedestal"},
+        "up": {"uv": [0, 0, 16, 16], "texture": "#pedestal"},
+        "down": {"uv": [0, 0, 16, 16], "texture": "#pedestal"}
+      }
+    },
+    {
+      "from": [-16, 3, -2],
+      "to": [-15, 7, 2],
+      "faces": {
+        "north": {"uv": [0, 0, 4, 4], "texture": "#input"},
+        "east": {"uv": [0, 0, 1, 4], "texture": "#input"},
+        "south": {"uv": [0, 0, 4, 4], "texture": "#input"},
+        "west": {"uv": [0, 0, 1, 4], "texture": "#input"},
+        "up": {"uv": [0, 0, 1, 4], "texture": "#input"},
+        "down": {"uv": [0, 0, 1, 4], "texture": "#input"}
+      }
+    },
+    {
+      "from": [31, 3, -2],
+      "to": [32, 7, 2],
+      "faces": {
+        "north": {"uv": [0, 0, 4, 4], "texture": "#output"},
+        "east": {"uv": [0, 0, 1, 4], "texture": "#output"},
+        "south": {"uv": [0, 0, 4, 4], "texture": "#output"},
+        "west": {"uv": [0, 0, 1, 4], "texture": "#output"},
+        "up": {"uv": [0, 0, 1, 4], "texture": "#output"},
+        "down": {"uv": [0, 0, 1, 4], "texture": "#output"}
+      }
+    }
+  ]
+}
